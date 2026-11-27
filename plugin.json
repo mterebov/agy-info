@@ -1,0 +1,15 @@
+{
+  "name": "agy-info",
+  "displayName": "AGY Info",
+  "version": "1.0.0",
+  "description": "Lightweight local Go MCP App for Antigravity: live context window meter, running subagents inspector, active plan checklist, and token growth chart at ~0% CPU.",
+  "logo": "assets/logo.svg",
+  "author": "Maksim Terebov",
+  "homepage": "https://github.com/mterebov/agy-info",
+  "repository": "https://github.com/mterebov/agy-info",
+  "suggestedPrompts": [
+    "Open AGY Info for the current session",
+    "Check context usage and whether I should run /compact",
+    "Show running subagents and the current execution plan"
+  ]
+}

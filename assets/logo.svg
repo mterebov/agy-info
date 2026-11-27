@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" fill="none">
+  <defs>
+    <linearGradient id="cm-arc" x1="28" y1="98" x2="104" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="55%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <linearGradient id="cm-line" x1="38" y1="78" x2="88" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="cm-fill" x1="64" y1="46" x2="64" y2="86" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Gauge track (270 deg open bottom) -->
+  <path
+    d="M 34.3 93.7 A 42 42 0 1 1 93.7 93.7"
+    stroke="#64748b"
+    stroke-opacity="0.34"
+    stroke-width="11"
+    stroke-linecap="round"
+  />
+
+  <!-- Active context fill arc (~72%) -->
+  <path
+    d="M 34.3 93.7 A 42 42 0 1 1 100.4 43.0"
+    stroke="url(#cm-arc)"
+    stroke-width="11"
+    stroke-linecap="round"
+  />
+
+  <!-- Peak marker dot along track -->
+  <circle cx="105.4" cy="71.3" r="4.5" fill="#f59e0b"/>
+
+  <!-- Inner sparkline area -->
+  <path
+    d="M 40 78 L 52 68 L 62 72 L 73 54 L 86 49 L 86 84 L 40 84 Z"
+    fill="url(#cm-fill)"
+  />
+
+  <!-- Inner context growth sparkline -->
+  <path
+    d="M 40 78 L 52 68 L 62 72 L 73 54 L 86 49"
+    stroke="url(#cm-line)"
+    stroke-width="6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Current point dot -->
+  <circle cx="86" cy="49" r="5" fill="#14b8a6"/>
+</svg>

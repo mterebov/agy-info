@@ -1,0 +1,17 @@
+{
+  "name": "agy-info-ui",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/ext-apps": "latest"
+  },
+  "devDependencies": {
+    "esbuild": "latest",
+    "typescript": "latest"
+  }
+}

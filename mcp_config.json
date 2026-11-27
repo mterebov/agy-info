@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "info": {
+      "command": "bash",
+      "args": [
+        "${PLUGIN_ROOT}/scripts/run.sh",
+        "--html-path=${PLUGIN_ROOT}/assets/app.html"
+      ]
+    }
+  }
+}

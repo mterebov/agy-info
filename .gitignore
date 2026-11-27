@@ -1,0 +1,16 @@
+# Compiled binaries and release artifacts
+bin/
+dist/
+
+# Frontend dependencies (built assets/app.html is tracked)
+ui/node_modules/
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+
+# Local environment and backups
+.env
+.env.*
+*.bak
+*.bak*
