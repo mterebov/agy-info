@@ -6,6 +6,18 @@
 
 Плагин работает нативно и в **правой боковой панели (`aux_pane`)**, и в **левом сайдбаре (`global`)**.
 
+## Скриншоты
+
+<p align="center">
+  <img src="./docs/screenshots/overview-wide.jpg" alt="AGY Info — главный экран с окном контекста, сабагентами и планом" width="680" />
+</p>
+
+<p align="center">
+  <img src="./docs/screenshots/side-pane.jpg" alt="AGY Info — компактный вид в боковой панели" width="330" />
+  &nbsp;
+  <img src="./docs/screenshots/activity-graph.jpg" alt="AGY Info — активность и график роста контекста с отметкой компактинга" width="330" />
+</p>
+
 ## Возможности
 
 - **Объединённый индикатор контекста (`Окно` / `Состав`)**

@@ -6,6 +6,18 @@ A lightweight, 100% local MCP App plugin for **Google Antigravity** that gives y
 
 Works natively in both the **right side pane (`aux_pane`)** and the **left sidebar (`global`)**.
 
+## Screenshots
+
+<p align="center">
+  <img src="./docs/screenshots/overview-wide.jpg" alt="AGY Info — main dashboard with context window, subagents, and live plan" width="680" />
+</p>
+
+<p align="center">
+  <img src="./docs/screenshots/side-pane.jpg" alt="AGY Info — compact right side pane view" width="330" />
+  &nbsp;
+  <img src="./docs/screenshots/activity-graph.jpg" alt="AGY Info — activity summary and token growth chart with compaction marker" width="330" />
+</p>
+
 ## Features
 
 - **Unified Context Window Meter (`Window` / `Breakdown`)**
